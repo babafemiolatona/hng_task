@@ -137,6 +137,6 @@ django_heroku.settings(locals())
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-CORS_ALLOW_HEADERS = ['*']
+CORS_ALLOW_HEADERS = '*'
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
