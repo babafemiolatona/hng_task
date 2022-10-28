@@ -2,7 +2,7 @@ from rest_framework.decorators import api_view
 from django.http import JsonResponse
 
 @api_view(["GET"])
-def home(request, *args, **kwargs):
+def info_list(request, *args, **kwargs):
     header = {"Access-Control-Allow-Origin":"*"}
     info = {
         "slackUsername":"outsider",
